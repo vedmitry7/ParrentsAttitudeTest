@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">Parents attitude test</string>
+    <string name="banner_ad_unit_id">ca-app-pub-2209532931509792/5504726981</string>
+
+    <string-array name="questions">
+        <item> I always sympathize with my child. </item>
+                <item> I consider it my duty to know everything that my child thinks about. </item>
+                <item> It seems to me that my child\'s behavior deviates significantly from the norm. </item>
+                <item> It is necessary to keep the child away from real life problems if they hurt him. </item>
+                <item> I feel a sense of sympathy for the child </item>
+                <item> I respect my child. </item>
+                <item> Good parents protect the child from the difficulties of life. </item>
+                <item> My child often displeases me. </item>
+                <item> I always try to help my child. </item>
+                <item> There are times when an unkind attitude to the child is of benefit to him. </item>
+                <item> I feel annoyed with my child. </item>
+                <item> My child will not achieve anything in life. </item>
+                <item> It seems to me that other children are laughing at my child. </item>
+                <item> My child often does things that deserve condemnation. </item>
+                <item> My child lags behind in psychological development and looks underdeveloped for her age. </item>
+                <item> My child behaves especially badly to annoy me.</item>
+                <item> My child, like a sponge, absorbs all the worst.</item>
+                <item> With all the efforts of my child, it is difficult to teach good manners. </item>
+                <item> A child from childhood should be kept within strict limits, only then a good person will grow out of him. </item>
+                <item> I like it when my child\'s friends come to our house. </item>
+                <item> I always take part in the games and affairs of the child. </item>
+                <item> All bad things are constantly "sticking" to my child. </item>
+                <item> My child will not make progress in life. </item>
+                <item> When people talk about children in the company, I feel ashamed that my child is not as smart and capable as other children. </item>
+                <item> I regret my child. </item>
+                <item> When I compare my child to my peers, they seem to me more educated and more intelligent than my child. </item>
+                <item> I enjoy spending my free time with my child. </item>
+                <item> I often regret that my child is growing up, and I remember with tenderness the time when he was still very young. </item>
+                <item> I often find myself taking a dislike and hostile attitude to the child. </item>
+                <item> I dream that my child will achieve what I personally failed in my life. </item>
+                <item> Parents should not only demand from the child, but also adapt themselves to him, treat him with respect, as a person. </item>
+                <item> I try to fulfill all the requests and wishes of my child. </item>
+                <item> When making decisions in the family, the opinion of the child should be taken into account. </item>
+                <item> I\'m very interested in the life of my child. </item>
+                <item> I often admit that in their claims and claims the child is in his own way right. </item>
+                <item> Children learn early that parents may be wrong. </item>
+                <item> I always count with a child. </item>
+                <item> I feel friendly towards the child. </item>
+                <item> The main reason for my child\'s vagaries is selfishness, laziness and stubbornness. </item>
+                <item> If you spend your vacation with a child, you can not normally rest. </item>
+                <item> The most important thing is that the child has a calm, carefree childhood. </item>
+                <item> Sometimes it seems to me that my child is not capable of anything good. </item>
+                <item> I share my child\'s passions. </item>
+                <item> My child can make anyone angry. </item>
+                <item> My child\'s griefs are always close and understandable to me. </item>
+                <item> My child often annoys me. </item>
+                <item> Raising a child is a hassle. </item>
+                <item> Strict discipline develops a strong character in childhood. </item>
+                <item> I do not trust my child. </item>
+                <item> For a strict upbringing, children later thank their parents. </item>
+                <item> Sometimes it seems to me that I hate my child. </item>
+                <item> There are more flaws in my child than merits. </item>
+                <item> I share the interests of my child, I share them. </item>
+                <item> My child is not able to do anything independently, and if he does this, it does not work out as expected. </item>
+                <item> My child will grow up not adapted to life. </item>
+                <item> I like my child the way he is. </item>
+                <item> I carefully monitor the health of my child. </item>
+                <item> I admire my child. </item>
+                <item> A child should not have secrets from his parents. </item>
+                <item> I have a low opinion about my child\'s abilities and do not hide it from him. </item>
+                <item> A child should be friends with those children who like his parents. </item>
+    </string-array>
+
+
+    <string name="acceptance">Acceptance - rejection of the child</string>
+
+    <string name="cooperation">Cooperation</string>
+
+    <string name="symbiosis">Symbiosis</string>
+
+    <string name="control">Control</string>
+
+    <string name="failures">Attitude to child failures</string>
+
+    <string name="test">Parents attitude test</string>
+
+    <string name="start">Start</string>
+    <string name="continue_test">Continue</string>
+
+    <string name="exit_question">Exit</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="process_will_save">Process will be saved.</string>
+    <string name="exit">Exit</string>
+    <string name="share_this_app">Share</string>
+    <string name="rate">Rate</string>
+    <string name="test_again">Start again</string>
+    <string name="satrt_again">Restart</string>
+
+</resources>

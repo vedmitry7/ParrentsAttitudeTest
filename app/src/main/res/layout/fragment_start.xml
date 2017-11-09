@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_above="@+id/buttonsStart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/startLayoutText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:textColor="@android:color/black"
+                android:paddingTop="@dimen/padding16"
+                android:paddingRight="@dimen/padding16"
+                android:paddingLeft="@dimen/padding16"
+                android:gravity="center"
+                android:alpha="0.68"
+                android:text="@string/test"
+                android:textSize="@dimen/text_size_24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <WebView
+                android:id="@+id/test_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:paddingTop="@dimen/padding10"
+        android:id="@+id/buttonsStart"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:textColor="@android:color/black"
+            android:id="@+id/btnStart"
+            android:textSize="16dp"
+            android:onClick="onClick"
+            android:layout_gravity="center"
+            android:background="@drawable/round_button_selector"
+            android:text="@string/start"
+            android:layout_width="@dimen/button_start_width"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/padding16"/>
+
+
+        <Button
+            android:textColor="@android:color/black"
+            android:visibility="gone"
+            android:id="@+id/btnResume"
+            android:textSize="@dimen/text_size_16"
+            android:onClick="onClick"
+            android:layout_gravity="center"
+            android:background="@drawable/round_button_selector"
+            android:text="@string/continue_test"
+            android:layout_width="@dimen/button_start_width"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/padding16"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

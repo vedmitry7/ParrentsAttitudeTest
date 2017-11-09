@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00796B</color>
+    <color name="colorPrimaryDark">#00796B</color>
+    <color name="colorAccent">#3b6776</color>
+    <color name="colorProgressBar">#009900</color>
+    <color name="colorProgressBarSecondary">#CCCCCC</color>
+
+</resources>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:id="@+id/btnStart"
+            android:textSize="@dimen/text_size_16"
+            android:onClick="onClick"
+            android:layout_gravity="center"
+            android:background="@drawable/round_button_selector"
+            android:padding="@dimen/button_shadow_margin_bottom"
+            android:text="@string/test_again"
+            android:layout_width="@dimen/button_finish_width"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:id="@+id/share"
+            android:textSize="@dimen/text_size_16"
+            android:onClick="onClick"
+            android:layout_gravity="center"
+            android:background="@drawable/round_button_selector"
+            android:padding="@dimen/button_shadow_margin_bottom"
+            android:text="@string/share_this_app"
+            android:layout_width="@dimen/button_finish_width"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="@android:color/black"
+            android:id="@+id/rate"
+            android:textSize="@dimen/text_size_16"
+            android:onClick="onClick"
+            android:layout_gravity="center"
+            android:background="@drawable/round_button_selector"
+            android:padding="@dimen/button_shadow_margin_bottom"
+            android:text="@string/rate"
+            android:layout_width="@dimen/button_finish_width"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="@android:color/black"
+            android:id="@+id/exit"
+            android:textSize="@dimen/text_size_16"
+            android:onClick="onClick"
+            android:layout_gravity="center"
+            android:background="@drawable/round_button_selector"
+            android:padding="@dimen/button_shadow_margin_bottom"
+            android:text="@string/exit"
+            android:layout_width="@dimen/button_finish_width"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

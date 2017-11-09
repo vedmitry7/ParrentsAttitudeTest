@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:paddingTop="@dimen/padding16"
+            android:paddingRight="@dimen/padding16"
+            android:paddingLeft="@dimen/padding16"
+            android:id="@+id/name"
+            android:alpha="0.68"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/text_size_24"
+            android:text="@string/acceptance"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <WebView
+            android:id="@+id/webViewShortDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+            android:layout_marginTop="@dimen/padding16"
+            android:id="@+id/progressBar"
+            android:layout_marginRight="@dimen/padding16"
+            android:layout_marginLeft="@dimen/padding16"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/progress_bar_height"
+            app:rcRadius="12dp"
+            app:rcBackgroundPadding="1dp"
+            app:rcReverse="false"
+            app:rcProgressColor="@color/colorProgressBar"
+            app:rcSecondaryProgressColor="@color/colorProgressBarSecondary"
+            app:rcBackgroundColor="@android:color/black" />
+
+        <TextView
+            android:gravity="center"
+            android:paddingRight="@dimen/padding16"
+            android:paddingLeft="@dimen/padding16"
+            android:id="@+id/result"
+            android:padding="10dp"
+            android:alpha="0.68"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/text_size_18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <WebView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+
+</ScrollView>

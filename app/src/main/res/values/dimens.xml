@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="buttons_bottom_margin">40dp</dimen>
+    <dimen name="button_answer_width">100dp</dimen>
+    <dimen name="button_answer_left_right_margin">25dp</dimen>
+    <dimen name="button_shadow_margin_bottom">10dp</dimen>
+    <dimen name="button_finish_width">300dp</dimen>
+    <dimen name="button_start_width">250dp</dimen>
+    <dimen name="padding16">16dp</dimen>
+    <dimen name="padding10">10dp</dimen>
+    <dimen name="tab_layout_height">36dp</dimen>
+    <dimen name="progress_bar_height">24dp</dimen>
+
+
+    <dimen name="text_size_20">20sp</dimen>
+    <dimen name="text_size_24">24sp</dimen>
+    <dimen name="text_size_18">18sp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+    <dimen name="question_text_size">28sp</dimen>
+
+
+</resources>
